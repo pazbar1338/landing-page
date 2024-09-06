@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+   font-family: Roboto, sans-serif;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+   font-size: 18px;
+   display: flex;
+   color: #E5E7EB;
+}
+
+
+.header-links > ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.header-content { 
+    margin: 70px 0;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+    gap: 12px;
+}
+
+.header-content-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-content-subtitle {
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.header-image {
+    display: flex;
+}
+
+#rac {
+    width: 480px;
+    height: auto;
+    border: 3px solid white;
+}
+
+/* MAIN */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.main-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-img {
+    display: flex;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.flower {
+    width: 150px;
+    height: auto;
+    border: 3px solid #1F2937;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+button {
+    border: 0;
+    background-color: #3882F6;
+    font-size: 15px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 7px 29px;
+    border-radius: 8px;
+}
