@@ -1,2 +1,2 @@
 # landing-page
-landing page project from The Odin Project
+Landing page project from The Odin Project - Given a .png template replicate it using html and CSS flexbox.
